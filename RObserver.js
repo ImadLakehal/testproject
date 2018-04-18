@@ -15,11 +15,9 @@
             entries.forEach(function(entry) {
                 // If breakpoints are defined on the observed element,
                 // use them. Otherwise use the defaults.   ***  OPTIONAL   ***
-                var breakpoints = entry.target.dataset.breakpoints ?
-                    JSON.parse(entry.target.dataset.breakpoints) :
-                    defaultBreakpoints;
-
-                alert("From Inside");
+               document.querySelector('body').style.paddingTop = (document.querySelector('ggm-header > header').clientHeight + 10) + 'px';
+               var tester = document.querySelector('body').style.paddingTop;
+               alert("tester :" + tester);
 
                 // Update the matching breakpoints on the observed element. ***  OPTIONAL   ***
                 // Object.keys(breakpoints).forEach(function(breakpoint) {
