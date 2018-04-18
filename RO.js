@@ -11,7 +11,6 @@ if ('ResizeObserver' in self) {
             // If breakpoints are defined on the observed element,
             // use them. Otherwise use the defaults.   ***  OPTIONAL   ***
            document.querySelector('body').style.paddingTop = (document.querySelector('ggm-header > header').clientHeight + 10) + 'px';
-           var tmp = document.querySelector('body').style.paddingTop;
         });
     });
 
