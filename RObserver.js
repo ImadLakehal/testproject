@@ -1,6 +1,6 @@
 // Only run if ResizeObserver is supported.
     if ('ResizeObserver' in self) {
-        alert ("I m a Chrome Browser");
+        alert ("I m a Super Chrome Browser");
         // Create a single ResizeObserver instance to handle all
         // container elements. The instance is created with a callback,
         // which is invoked as soon as an element is observed as well
